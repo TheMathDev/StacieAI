@@ -42,6 +42,8 @@ https://templatemo.com/tm-578-first-portfolio
 }
 
 body {
+  flex: 1;
+  height: 100%;
     background: var(--white-color);
     font-family: var(--body-font-family); 
 }
@@ -489,6 +491,26 @@ strong {
   display: inline-block;
   padding: 8px 24px;
 }
+
+.hero h3 {
+  background: var(--white-color);
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  border-radius: var(--border-radius-large);
+  display: inline-block;
+  padding: 8px 24px;
+}
+
+
+
+.special-p {
+  background: var(--white-color);
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  border-radius: var(--border-radius-large);
+  display: inline-block;
+  padding: 38px 34px;
+  justify-content: space-around;
+}
+
 
 .hero-title {
 	font-size: 44px;
